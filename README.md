@@ -1,4 +1,4 @@
-- Download script
+- Download install_gnome_exts.sh script
 - Make script executable `chmod +x install_gnome_exts.sh`
 - Run script passing in gnome extension URLs as a space separated string - 
 - Example: `./installGnomeExtensions.sh "https://extensions.gnome.org/extension/3193/blur-my-shell/ https://extensions.gnome.org/extension/7/removable-drive-menu/"`
