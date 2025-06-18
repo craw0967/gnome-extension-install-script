@@ -1,0 +1,7 @@
+Download script
+Make script executable `chmod +x install_gnome_exts.sh`
+Run script passing in gnome extension URLs as a space separated string - 
+Example: `./installGnomeExtensions.sh "https://extensions.gnome.org/extension/3193/blur-my-shell/ https://extensions.gnome.org/extension/7/removable-drive-menu/"`
+Do not use `sudo`
+Script will automatically download the newest version listed as compatible with your GNOME shell, install it to your local account `~/.local/share/gnome-shell/extensions`, and enable the extension
+Generally requires you to log out and back in before extensions will be available.
